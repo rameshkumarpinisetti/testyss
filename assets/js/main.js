@@ -137,4 +137,32 @@ $(document).ready(function(){
             scrollTop: $("#targetDiv").offset().top
         }, 1000);
     });
+    $( "#participantPlayer" ).on( "click", function() {
+        console.log( 'Hello' );
+        $('#participantTab').addClass('active');
+        $('#participant-login').addClass('active show');
+        $('#judgeTab').removeClass('active');
+        $('#yogaCenterTab').removeClass('active');
+        $('#judge-login').removeClass('active show');
+        $('#yogaCenter-login').removeClass('active show');
+    });
+    $( "#judgeLogin" ).on( "click", function() {
+        console.log( 'Hello' );
+        $('#judgeTab').addClass('active');
+        $('#judge-login').addClass('active show');
+        $('#participantTab').removeClass('active');
+        $('#yogaCenterTab').removeClass('active');
+        $('#participant-login').removeClass('active show');
+        $('#yogaCenter-login').removeClass('active show');
+    });
+    $( "#yogaCenter" ).on( "click", function() {
+        console.log( 'Hello' );
+        $('#yogaCenterTab').addClass('active');
+        $('#yogaCenter-login').addClass('active show');
+        $('#participantTab').removeClass('active');
+        $('#judgeTab').removeClass('active');
+        $('#participant-login').removeClass('active show');
+        $('#judge-login').removeClass('active show');
+    });
 });
+

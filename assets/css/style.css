@@ -1,4 +1,12 @@
-
+.green{
+    color: #01ff70;
+}
+.yellow{
+    color: #ffa62e;
+}
+.red{
+    color: #F83505;
+}
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -230,7 +238,7 @@ a{
     color: #FFFFFF;
 }
 .btn-create{
-    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+    background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%);
     transition: 0.5s;
     background-size: 200% auto;
     color: #FFFFFF;
@@ -438,6 +446,9 @@ a{
 
     .navbar-light .navbar-brand img {
         max-height: 45px;
+    }
+    .tab-inner-content .tab-content .tab-pane .container{
+        padding: 0;
     }
 }
 
