@@ -937,6 +937,87 @@ h6 {
   background: #ffecdf;
 }
 
+.dashboard .current-event{
+  background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.dashboard .current-event:hover{
+  background-position: right center;
+}
+.dashboard .current-event .card-icon{
+  color: #4154f1;
+  background: #f6f6fe;
+}
+.dashboard .previous-event{
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.dashboard .previous-event:hover{
+  background-position: right center;
+}
+.dashboard .previous-event .card-icon{
+  color: #2eca6a;
+  background: #e0f8e9;
+}
+.dashboard .upcoming-event{
+  background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.dashboard .upcoming-event:hover{
+  background-position: right center;
+}
+.dashboard .upcoming-event .card-icon{
+  color: #ff771d;
+  background: #ffecdf;
+}
+.dashboard .ack-slip{
+  background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.dashboard .ack-slip:hover{
+  background-position: right center;
+}
+.dashboard .ack-slip .card-icon{
+  color: #4154f1;
+  background: #f6f6fe;
+}
+
+.card-inner{
+  width: 100%;
+}
+.card-content h6{
+  float: left;
+}
+.card-content .btn{
+  float: right;
+}
+
+.card .card-body .card-title {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.card .card-body .card-inner h6 {
+  color: #fff;
+}
+
+.v-score-btn{
+  background-image: linear-gradient(to right, #000046 0%, #1CB5E0  51%, #000046  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  font-weight: 700;
+}
+.v-score-btn:hover{
+  background-position: right center;
+  color: #fff;
+}
 /* Activity */
 .dashboard .activity {
   font-size: 14px;
